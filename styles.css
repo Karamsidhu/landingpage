@@ -1,0 +1,107 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F2937;
+    margin: 0;
+}
+
+.header, .content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+
+}
+
+.heading1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.para1 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.herolink {
+    text-decoration: none;
+    color: lightblue;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 3px;
+    background-color: #3882F6;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    font-style: extra-bold;
+    font-weight: bolder;
+    border: #3882F6;
+}
+
+
+.rightside {
+    padding: 10px;
+    background-color: grey;
+}
+
+
+
+.heading2 {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.content2 {
+    background-color: white;
+    height: 300px;
+}
+
+.cardhand {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.image_card {
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
